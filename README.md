@@ -9,6 +9,7 @@
 6. [Checking off and deleting tasks](#Checking off and deleting tasks)
 7. [Adding user accounts](#Adding user accounts)
 8. [Security with methods](#Security with methods)
+9. [Filtering data with publish and subscribe](#Filtering data with publish and subscribe)
 
 ### Install Meteor
 ```
@@ -48,4 +49,10 @@ meteor add accounts-ui accounts-password
 ```
 meteor remove insecure
 meteor npm install --save bcrypt
+```
+
+### Filtering data with publish and subscribe
+```
+meteor remove autopublish
+meteor npm install --save classnames
 ```
