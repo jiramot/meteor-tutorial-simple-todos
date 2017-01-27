@@ -8,6 +8,7 @@
 5. [Adding tasks with a form](#Adding tasks with a form)
 6. [Checking off and deleting tasks](#Checking off and deleting tasks)
 7. [Adding user accounts](#Adding user accounts)
+8. [Security with methods](#Security with methods)
 
 ### Install Meteor
 ```
@@ -41,4 +42,10 @@ adding form to insert task to mongo
 ### Adding user accounts
 ```
 meteor add accounts-ui accounts-password
+```
+
+### Security with methods
+```
+meteor remove insecure
+meteor npm install --save bcrypt
 ```
