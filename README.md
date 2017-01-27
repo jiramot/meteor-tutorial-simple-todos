@@ -7,6 +7,7 @@
 4. [Store task to mongo](#Storing tasks in a collection)
 5. [Adding tasks with a form](#Adding tasks with a form)
 6. [Checking off and deleting tasks](#Checking off and deleting tasks)
+7. [Adding user accounts](#Adding user accounts)
 
 ### Install Meteor
 ```
@@ -36,3 +37,8 @@ meteor add react-meteor-data
 adding form to insert task to mongo
 
 ### Checking off and deleting tasks
+
+### Adding user accounts
+```
+meteor add accounts-ui accounts-password
+```
