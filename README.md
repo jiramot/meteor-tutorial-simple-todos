@@ -5,6 +5,7 @@
 2. [Create app](#Creating your first app)
 3. [Replace view with React](#Defining views with React components)
 4. [Store task to mongo](#Storing tasks in a collection)
+5. [Adding tasks with a form](#Adding tasks with a form)
 
 ### Install Meteor
 ```
@@ -29,3 +30,6 @@ meteor npm install --save react react-dom
 meteor npm install --save react-addons-pure-render-mixin
 meteor add react-meteor-data
 ```
+
+### Adding tasks with a form
+adding form to insert task to mongo
