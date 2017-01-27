@@ -6,6 +6,7 @@
 3. [Replace view with React](#Defining views with React components)
 4. [Store task to mongo](#Storing tasks in a collection)
 5. [Adding tasks with a form](#Adding tasks with a form)
+6. [Checking off and deleting tasks](#Checking off and deleting tasks)
 
 ### Install Meteor
 ```
@@ -33,3 +34,5 @@ meteor add react-meteor-data
 
 ### Adding tasks with a form
 adding form to insert task to mongo
+
+### Checking off and deleting tasks
