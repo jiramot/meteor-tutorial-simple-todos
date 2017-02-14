@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  app:
+    build: .
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      APP: todo
+      ROOT_URL: http://127.0.0.1:8080/
+      MONGO_URL: mongodb://mongo:27017/todo
+      NODE_ENV: production
+      PORT: 80
+
+  mongo:
+    image: mongo
